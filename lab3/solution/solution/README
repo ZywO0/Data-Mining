@@ -1,0 +1,14 @@
+data0.py
+	solution to part 2 "Getting Started"
+
+km0.py
+	solution to part 3 "Write K-Means Yourself"
+
+km1.py
+	solution to part 4 "Use K-Means from scikit-learn"
+
+agg.py
+	solution to part 5 "Write Agglomerative Clustering using scikit-learn"
+
+dbs.py
+	solution to part 6 "Write DBSCAN Clustering using scikit-learn"

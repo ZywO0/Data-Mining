@@ -1,0 +1,22 @@
+KEY TO SOLUTIONS TO PRACTICAL 2
+
+SOLUTION TO PARTS 3.1-3.2:
+data0.py = reads data from file and splits into training and test sets
+
+SOLUTION TO PART 3.3:
+data1.py = generates synthetic data for linear regression
+
+SOLUTION TO PART 4.1, STEPS 1-5:
+linreg0.py = basic linear regression method applied to an existing data set
+
+SOLUTION TO PART 4.1, STEP 6:
+linreg1.py = basic linear regression method applied to a synthetic data set
+
+SOLUTION TO PART 4.2:
+linreg2.py = scikit-learn linear regression method applied to a synthetic data set
+
+SOLUTION TO PART 5, STEPS 1-2:
+data2.py = generates synthetic data for linear classification (perceptron)
+
+SOLUTION TO PART 5, STEPS 3-4:
+per.py = scikit-learn perceptrion applied to synthetic data set
