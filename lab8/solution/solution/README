@@ -1,0 +1,14 @@
+p1.py
+	solution to part 2 (basic image handling)
+
+p2.py
+	solution to part 3.1 (canny edge detection)
+
+p3.py
+	solution to part 3.2 (convex hull computation)
+
+p4.py
+	solution to part 3.3 (finding contours)
+
+p5.py
+	solution to part 3.4 (finding lines using Hough)
