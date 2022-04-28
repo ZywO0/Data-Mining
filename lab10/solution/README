@@ -1,0 +1,22 @@
+p1.py
+	solution to part 1 (built-in iris data set)
+
+p2.py
+	solution to part 2.2, pca and plotting (iris data set from an external file)
+p2c.py
+	solution to part 2.2, classification
+
+p3.py
+	solution to part 2.3, pca and plotting (diabetes data set)
+p3c.py
+	solution to part 2.3, classification
+
+p4.py
+	solution to part 2.4, pca and plotting (contact lenses data set)
+p4c.py
+	solution to part 2.4, classification
+
+p5.py
+	solution to part 2.5, pca and plotting (weather data set)
+p5c.py
+	solution to part 2.5, classification

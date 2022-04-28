@@ -1,0 +1,112 @@
+--------------------------------------------------------------------------------
+contact-lenses.csv
+--------------------------------------------------------------------------------
+Title: Database for fitting contact lenses
+
+Sources:
+(a) Cendrowska, J. "PRISM: An algorithm for inducing modular rules", International Journal of Man-Machine Studies, 1987, 27, 349-370
+(b) Donor: Benoit Julien (Julien@ce.cmu.edu)
+(c) Date: 1 August 1990
+
+Past Usage:
+1. See above.
+2. Witten, I. H. & MacDonald, B. A. (1988). Using concept learning for knowledge acquisition. International Journal of Man-Machine Studies, 27, (pp. 349-370).
+
+Notes: This database is complete (all possible combinations of attribute-value pairs are represented). Each instance is complete and correct.
+
+Attributes:
+1. 'age' = age of the patient: { young, pre-presbyopic, presbyopic }
+2. 'spectacle-prescrip' = spectacle prescription:  { myope, hypermetrope }
+3. 'astigmatism' = astigmatic:     { no, yes }
+4. 'tear-prod-rate' = tear production rate:  { reduced, normal }
+5. class:
+   -- none : the patient should not be fitted with contact lenses
+   -- hard : the patient should be fitted with hard contact lenses
+   -- soft : the patient should be fitted with soft contact lenses
+
+
+--------------------------------------------------------------------------------
+diabetes.csv
+--------------------------------------------------------------------------------
+Title: Pima Indians Diabetes Database
+
+Sources:
+(a) Original owners: National Institute of Diabetes and Digestive and Kidney Diseases
+(b) Donor of database: Vincent Sigillito (vgs@aplcen.apl.jhu.edu)
+                       Research Center, RMI Group Leader
+                       Applied Physics Laboratory
+                       The Johns Hopkins University
+                       Johns Hopkins Road
+                       Laurel, MD 20707
+                       (301) 953-6231
+(c) Date received: 9 May 1990
+
+3. Past Usage:
+Smith, J. W., Everhart, J. E., Dickson, W. C., Knowler, W. C., & Johannes, R. S. (1988). Using the ADAP learning algorithm to forecast the onset of diabetes mellitus.  In "Proceedings of the Symposium on Computer Applications and Medical Care", pp.261-265, IEEE  Computer Society Press.
+
+The diagnostic, binary-valued variable investigated is whether the patient shows signs of diabetes according to World Health Organization criteria (i.e., if the 2 hour post-load plasma glucose was at least  200 mg/dl at any survey  examination or if found during routine medical care). The population lives near Phoenix, Arizona, USA.
+
+Attributes: (all numeric-valued)
+1. 'preg' = Number of times pregnant
+2. 'plas' = Plasma glucose concentration a 2 hours in an oral glucose tolerance test
+3. 'pres' = Diastolic blood pressure (mm Hg)
+4. 'skin' = Triceps skin fold thickness (mm)
+5. 'insu' = 2-Hour serum insulin (mu U/ml)
+6. 'mass' = Body mass index (weight in kg/(height in m)^2)
+7. 'pedi' = Diabetes pedigree function
+8. 'age' = Age (years)
+9. class:
+   -- 'tested_negative' (no diabetes)
+   -- 'tested_positive' (diabetes)
+
+
+--------------------------------------------------------------------------------
+iris.csv
+--------------------------------------------------------------------------------
+Title: Iris Plants Database
+
+Sources:
+(a) Creator: R.A. Fisher
+(b) Donor: Michael Marshall (MARSHALL%PLU@io.arc.nasa.gov)
+(c) Date: July, 1988
+
+Past Usage:
+* Publications: too many to mention!!!  Here are a few.
+1. Fisher,R.A. "The use of multiple measurements in taxonomic problems", Annual Eugenics, 7, Part II, 179-188 (1936); also in "Contributions to Mathematical Statistics" (John Wiley, NY, 1950).
+2. Duda,R.O., & Hart,P.E. (1973) Pattern Classification and Scene Analysis. (Q327.D83) John Wiley & Sons.  ISBN 0-471-22361-1.  See page 218.
+3. Dasarathy, B.V. (1980) "Nosing Around the Neighborhood: A New System Structure and Classification Rule for Recognition in Partially Exposed Environments".  IEEE Transactions on Pattern Analysis and Machine Intelligence, Vol. PAMI-2, No. 1, 67-71.
+4. Gates, G.W. (1972) "The Reduced Nearest Neighbor Rule".  IEEE Transactions on Information Theory, May 1972, 431-433.
+
+Attributes:
+1. sepal length in cm
+2. sepal width in cm
+3. petal length in cm
+4. petal width in cm
+5. class: 
+   -- Iris Setosa
+   -- Iris Versicolour
+   -- Iris Virginica
+
+
+--------------------------------------------------------------------------------
+weather.csv
+--------------------------------------------------------------------------------
+Attributes:
+1. outlook { 'sunny', 'overcast', 'rainy' }
+2. temperature numeric
+3. humidity numeric
+4. windy { 'false', 'true' }
+5. class:
+   -- yes (play)
+   -- no (do not play)
+
+
+
+--------------------------------------------------------------------------------
+spam.csv
+--------------------------------------------------------------------------------
+Attributes:
+1. message {text}
+2. class:
+   -- ham (no spam)
+   -- spam
